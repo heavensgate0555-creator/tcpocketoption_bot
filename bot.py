@@ -9,9 +9,9 @@ from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 # ================== CONFIG ==================
-TOKEN = os.getenv("8588513246:AAGaQWZX5xU8hJMwETxyYfYCkWlJ2zzIJho")  # set in Railway
-ADMIN_ID = int(os.getenv("8333660216")  # your telegram ID
-WALLET_ADDRESS = os.getenv("TWshH1BdqudwxGMXDyGdiy9dqYJEJ4MYnc")  # your USDT wallet
+TOKEN = "8588513246:AAGaQWZX5xU8hJMwETxyYfYCkWlJ2zzIJho"
+ADMIN_ID = 8333660216
+WALLET_ADDRESS = "TWshH1BdqudwxGMXDyGdiy9dqYJEJ4MYnc"
 
 PAIRS = [
     "EUR/USD", "GBP/USD", "USD/JPY", "AUD/USD",
